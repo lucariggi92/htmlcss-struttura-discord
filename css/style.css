@@ -7,31 +7,63 @@ margin:0
 
 /* CONTAINER////////////////////////////////// */
 .container{
-
- height:400px;
- margin: 0 auto;
+  margin: 0 auto;
  border: 1px solid black;
-}
 
-header{
-    background-color:rgb(206, 251, 254);
-    height: 100px;
-}
-
-.flex{
-display:flex;
-justify-content:center;
-align-items: center;
-margin
-}
-
+ 
 .div{
     height:50px;
-    width: 20%;
+    width: 100%;
     border:1px solid red;
     
 }
 
+}
+.cont-main-1{
+  height:600px;
+    width: 100%;
+    background-color: blue;
+
+}
+.cont-main-2{
+ height:600px;
+    width: 100%;
+    background-color: blue;
+}
+.cont-main-3{
+
+}
+.cont-main-4{
+
+}
+
+.internal-square-1{
+    height:80%;
+    width:60%;
+    background-color: pink;
+    border:1px dashed black;
+}
+
+
+.flex-row{
+display:flex;
+justify-content:center;
+align-items: center;
+}
+.flex-column{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    flex-grow: 1;
+  
+}
+
+
+header{
+    background-color:rgb(206, 251, 254);
+    height: 100px;
+ }
 
 .items-header{
     background-color: rgb(238, 186, 17);
