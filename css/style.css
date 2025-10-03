@@ -13,13 +13,39 @@ margin:0
  border: 1px solid black;
 }
 
-.flex{
-display:flex;
-justify-items: ;
+header{
+    background-color:rgb(206, 251, 254);
+    height: 100px;
 }
 
-div{
-    height:200px;
-    width: 200px;
+.flex{
+display:flex;
+justify-content:center;
+align-items: center;
+margin
+}
+
+.div{
+    height:50px;
+    width: 20%;
     border:1px solid red;
+    
+}
+
+
+.items-header{
+    background-color: rgb(238, 186, 17);
+    height:50%;
+    border:1px dashed black;
+}
+
+.center-header-items{
+    width:40%;
+    text-align: center;
+    line-height:50px;
+}
+.lateral-header-items{
+    width:15%;
+    text-align: center;
+    line-height:50px;
 }
