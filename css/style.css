@@ -14,22 +14,21 @@ margin:0
 .div{
     height:50px;
     width: 100%;
-    border:1px solid red;
-    
+      
 }
 
 }
 .cont-main-1{
   height:600px;
     width: 100%;
-    background-color: blue;
+    background-color: rgb(10, 10, 126);
+    border-bottom: 1px solid rgb(93, 160, 227);
 
 }
 .cont-main-2{
- height:600px;
+ height:700px;
     width: 100%;
-    background-color: blue;
-}
+   }
 .cont-main-3{
 
 }
@@ -37,13 +36,40 @@ margin:0
 
 }
 
-.internal-square-1{
+.square-violet{
     height:80%;
     width:60%;
-    background-color: pink;
+    background-color: violet;
     border:1px dashed black;
 }
 
+.square-pink{
+     height:80%;
+    background-color: pink;
+    border:1px dashed black;
+}
+.square-blu{
+     height:80%;
+    background-color: blue;
+    border:1px dashed black;
+}
+
+.square-big{
+height:80%;
+    width:45%;
+}
+
+.square-small{
+height:80%;
+    width:25%;
+}
+
+.bg-white{
+    background-color: white;
+}
+.bg-blu{
+    background-color: lightgray;
+}
 
 .flex-row{
 display:flex;
@@ -54,10 +80,9 @@ align-items: center;
     justify-content: center;
     align-items: center;
     display:flex;
-    flex-direction: column;
-    flex-grow: 1;
-  
+    flex-direction: column; 
 }
+
 
 
 header{
